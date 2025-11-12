@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Muller';
+    src: url(шрифты/Fontfabric-MullerRegular.otf);
+}
+body{
+    font-family: 'Muller' , sans-serif;
+    background-image: linear-gradient(135deg, #1C0C00 0%, #1C0700 31%, #140900 69%, #1C0C00 100%);
+    color: white;
+    line-height: 1.5;
+}
+button{
+    border: none;
+    cursor:pointer;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ncb {
+    background: 
+        linear-gradient(#1C0700, #1C0700) padding-box,
+        linear-gradient(to right, #FFA228, #FF6432) border-box;
+    border: 2px solid transparent;
+    border-radius: 32px;
+}
+a{
+    color: #A3A3A3;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0,4 all ease;
+}
+a:hover{color: #FFA228;}
+h3{font-size: 34px; font-weight: bolder;}
+h1{font-size: 70px;}
+header{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    width: 469px;
+    height: 33px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+}
+.knopki{
+    width: 230px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+nav button{font-size: 18px;}
+.cb{background-image: linear-gradient(to right,#FFA228, #FF6432);}
+.knopki .cb{
+    width: 163px;
+    height: 100%;
+}
+.krug{
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+}
+.knopki .krug{background-image: linear-gradient(to right,#FFA228,#FF6432);}
+.ctxt{
+    background-image: linear-gradient(to right,#FFA228 ,#FF6432);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+nav h3{align-self: flex-end;}
+.txt{
+    display: flex;
+    width: 538px;
+    height: 76px;
+}
+.molniya{margin: 0 15px;}
+.vContainer button{
+    width: 81px;
+    height: 81px;
+    border-radius: 50px;
+    position: relative;
+    top: 65px;
+    right: 205px;
+}
+.videoContainer{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.vContainer{
+    width: 100%;
+    height: 214px;
+    display: flex;
+}
+.video {
+    width: 287px;
+    height: 214px;
+    position: relative;
+    right: 22px;
+}
+.section1{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s1_container{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.leftS1{
+    width: 540px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.strelkatxt{
+    width: 110px;
+    height: 55px;
+    align-self: center;
+}
+.leftS1 p{
+    width: 400px;
+}
+.butContainer .cb, .ncb{
+    width: 230px;
+    height: 62px;
+    font-size: 18px;
+}
+.butContainer .ncb .ctxt{width: 170px;height: 23px;}
+.butContainer .ncb{
+    text-align: right; 
+    position: relative;
+    right: 80px;
+    z-index: 1;
+}
+.butContainer .cb{z-index: 2;}
+.butContainer{display: flex;}
+.txt_cont{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.strelkaS1{
+    align-self: flex-end;
+    position: relative;
+    right: 260px;
+}
+.RightS1{
+    width: 550px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pizzaS1{
+    width: 300px;
+    height: 300px;
+    align-self: flex-end;
+    position: relative;
+    top: 190px;
+    left: 85px;
+}
+.friesS1{
+    width: 290px;
+    height: 300px;
+    position: relative;
+    bottom: 210px;
+    right: 90px;
+}
+.section2{
+  width: 100%;
+  height: 1655px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;  
+}
+.top{
+    width: 80%;
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top button{
+    background-color: #1C0700;
+    border: none;
+    width: 230px;
+    height: 62px;
+}
+.kards{
+    width: 80%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.kard{
+    width: 297px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #210A01;
+    border-radius: 30px;
+    z-index: 1;
+}
+.da{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 315px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.kard img{
+    width: 190px;
+    height: 180px;
+    position: relative;
+    top: 80px;
+    z-index: 2;
+}
+.kard .size{
+    width: 194px;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.kard .size button{
+    width: 40px;
+    height: 40px;
+}
+.kard .options{
+    width: 194px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.kard .options .cnt{
+    width: 82px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+}
+.cnt button{
+    width: 23px;
+    height: 23px;
+}
+.kard .ncb{width: 194px;height: 39px; font-size: 16px;}
+.kard .order .cb{width: 194px;height: 45px; font-size: 18px;}
+.kard .prosto{
+    width: 85%;;
+    height: 43px;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #A3A3A3;
+}
+.gb{
+    color: #A3A3A3;
+    border-color: #A3A3A3;
+    background-color: #210A01;
+    border: 2px solid;
+}
+.pizzaName{font-size: 25px;}
+.price{font-size: 25px;}
+.mpp{
+    width: 80%;
+    height: 286px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(картинки/photos2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{font-size: 44px;}
