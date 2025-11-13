@@ -97,6 +97,17 @@ nav button{font-size: 18px;}
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+button .ctxt{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button .ctxt:hover{
+    background-image: none;
+     -webkit-text-fill-color:white;
+}
 nav h3{align-self: flex-end;}
 .txt{
     display: flex;
@@ -165,10 +176,15 @@ nav h3{align-self: flex-end;}
 }
 .butContainer .ncb .ctxt{width: 170px;height: 23px;}
 .butContainer .ncb{
-    text-align: right; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     position: relative;
     right: 80px;
     z-index: 1;
+}
+.butContainer .ncb .ctxt{
+     width: 70%;height: 100%;
 }
 .butContainer .cb{z-index: 2;}
 .butContainer{display: flex;}
@@ -227,6 +243,9 @@ nav h3{align-self: flex-end;}
     width: 230px;
     height: 62px;
     font-size: 24px;
+}
+.taptap:hover{
+    background-image: linear-gradient(to right,#FFA228, #FF6432);
 }
 .kards{
     width: 80%;
